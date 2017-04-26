@@ -234,6 +234,11 @@ a:after {
 
 
 /* オリジナル */
+.non-logo{
+  font-size: 90px;
+}
+
+
 @media screen and ( max-width:991px ){
   .upper{
     order: -1;
@@ -254,6 +259,7 @@ a:after {
   }
 }
 
+@media screen and ( min-width:1200px ) {
 .row-eq-height {
   display: flex;
   flex-wrap: wrap;
@@ -264,4 +270,5 @@ a:after {
   justify-content: center;
   align-items: center;
   overflow: hidden;
+}
 }
