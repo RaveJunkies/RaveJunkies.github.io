@@ -234,6 +234,7 @@ a:after {
 
 
 /* オリジナル */
+
 .non-logo{
   font-size: 90px;
 }
@@ -257,18 +258,4 @@ a:after {
   .bio{
     text-align: left
   }
-}
-
-@media screen and ( min-width:1200px ) {
-.row-eq-height {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.centered-img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-}
 }
