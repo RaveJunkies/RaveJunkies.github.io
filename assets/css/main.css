@@ -259,3 +259,20 @@ a:after {
     text-align: left
   }
 }
+@media screen and (min-width:1200px){
+  .row-eq-height {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.centered-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.centered-img img {
+  height: auto;
+}
+}
