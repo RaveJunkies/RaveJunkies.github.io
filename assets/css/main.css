@@ -240,7 +240,9 @@ a:after {
 .non-logo{
   font-size: 5vw;
 }
-
+.row-eq-height{
+  background-color: #CCC;
+}
 
 @media screen and ( max-width:991px ){
   .upper{
@@ -266,6 +268,7 @@ a:after {
   display: flex;
   flex-wrap: wrap;
 }
+
 
 .centered-img {
   display: flex;
