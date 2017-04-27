@@ -283,3 +283,9 @@ a:after {
   padding-top:87px;
   margin-top:-87px;
 }
+
+@media screen and (max-width:359px){
+  #green p{
+    font-size: 5vw;
+  }
+}
