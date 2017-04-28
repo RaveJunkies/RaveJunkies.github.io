@@ -4320,7 +4320,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   position: relative;
   min-height: 50px;
   margin-bottom: 20px;
-  border: 1px solid transparent;
+  /*border: 1px solid transparent;*/
 }
 
 .navbar:before,
@@ -4679,8 +4679,9 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-default {
-  background-color: #f8f8f8;
-  border-color: #e7e7e7;
+  background: linear-gradient(rgba(0, 0, 0, 255), rgba(255, 255, 255, 0));
+/*  border-color: #e7e7e7;*/
+
 }
 
 .navbar-default .navbar-brand {

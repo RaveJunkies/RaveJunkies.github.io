@@ -30,7 +30,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: "Helvetica-bold";
     font-weight: 700;
-    color: #333;
+    color: #FFF;
 }
 
 
@@ -91,14 +91,15 @@ a:after {
 
 .navbar {
 	font-weight: 800;
-	font-size: 14px;
-	padding-top: 15px;
-	padding-bottom: 15px;
+	font-size: 20px;
+  font-family: Helvetica-bold;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	/*background-color: #ffffff;*/
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	color: #000000;
+	color: #FFF;
 	/*background-color: #9A2EFE;*/
 }
 
@@ -173,7 +174,7 @@ a:after {
 	background-color: #4e4e4e;
 	padding-top: 50px;
 	padding-bottom: 50px;
-	margin-top: 50px;
+	/*margin-top: 50px;*/
 }
 
 #skills h3 {
@@ -184,12 +185,28 @@ a:after {
 	color: white;
 	font-weight: 400;
 }
+/* warmup */
+#warmup {
+	background-color: #4e4e4e;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	/*margin-top: 50px;*/
+}
+
+#warmup h3 {
+	color: white;
+}
+
+#warmup p {
+	color: white;
+	font-weight: 400;
+}
 
 /* Social Links */
 #social {
 	width: 100%;
-	padding-top: 200px;
-	padding-bottom: 200px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 #social i {
@@ -207,8 +224,8 @@ a:after {
 
 /* Footer */
 #f {
-	padding-top: 20px;
-	background-color: #74cfae;
+	padding-top: 15px;
+	background-color: #9A2EFE;
 }
 
 #f p {
@@ -241,8 +258,21 @@ a:after {
   font-size: 5vw;
 }
 
+.line-up{
+  font-size: 8vw;
+}
+
 .line-up-background{
   background-color: #444444;
+  padding-bottom: 50px;
+}
+
+.long-width-logo img {
+  width: 40%;
+}
+
+.long-height-logo img {
+  width: 25%;
 }
 
 @media screen and ( max-width:991px ){
@@ -255,6 +285,10 @@ a:after {
   }
 
 
+
+
+
+
 }
 @media screen and ( max-width:1200px ){
   .minicenter {
@@ -263,6 +297,15 @@ a:after {
   .bio{
     text-align: left
   }
+  .long-width-logo img {
+    width: 50vw;
+    padding-top: 20px;
+  }
+
+  .long-height-logo img {
+    width: 40%;
+  }
+
 }
 @media screen and (min-width:1200px){
   .row-eq-height {
