@@ -179,6 +179,7 @@ a:after {
 
 #skills h3 {
 	color: white;
+  font-size: 8vw;
 }
 
 #skills p {
@@ -195,6 +196,7 @@ a:after {
 
 #warmup h3 {
 	color: white;
+  font-size: 8vw;
 }
 
 #warmup p {
@@ -207,6 +209,11 @@ a:after {
 	width: 100%;
 	padding-top: 50px;
 	padding-bottom: 50px;
+}
+
+#social h3{
+  color: white;
+  font-size: 8vw;
 }
 
 #social i {
@@ -275,6 +282,10 @@ a:after {
   width: 25%;
 }
 
+.seigi-logo img{
+  width:35%
+}
+
 @media screen and ( max-width:991px ){
   .upper{
     order: -1;
@@ -304,6 +315,10 @@ a:after {
 
   .long-height-logo img {
     width: 40%;
+  }
+
+  .seigi-logo img{
+    width: 45%;
   }
 
 }
