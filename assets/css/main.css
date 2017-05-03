@@ -276,14 +276,20 @@ a:after {
 
 .long-width-logo img {
   width: 40%;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .long-height-logo img {
   width: 25%;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .seigi-logo img{
-  width:35%
+  width:35%;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 @media screen and ( max-width:991px ){
