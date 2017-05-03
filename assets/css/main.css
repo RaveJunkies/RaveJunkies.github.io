@@ -152,6 +152,7 @@ a:after {
 #about {
 	background-color: #9A2EFE;
 	padding-top: 50px;
+  padding-bottom: 50px;
 	margin-bottom: 0px;
 }
 
@@ -169,7 +170,7 @@ a:after {
 
 #about p {
 	color: white;
-	font-weight: 600;
+	font-weight: 400;
 	font-size: 18px;
     text-align: left
 }
@@ -369,4 +370,8 @@ a:after {
 
 .address{
   padding:50px;
+}
+
+.bold{
+  font-weight: 800 !important;
 }
