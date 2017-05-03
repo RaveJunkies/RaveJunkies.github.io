@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Paragraph & Typographic */
 p {
     line-height: 28px;
-    margin-bottom: 25px;
+    /*margin-bottom: 25px;*/
 }
 
 .centered {
@@ -157,8 +157,14 @@ a:after {
 
 #about h3 {
 	color: white;
-	font-weight: 400;
+  font-size:3.4vw;
+	font-weight: 800;
 	margin-bottom: 35px;
+}
+@media screen and (max-width:1299px){
+  #about h3{
+    font-size:5vw;
+  }
 }
 
 #about p {
@@ -359,4 +365,8 @@ a:after {
   #about p{
     font-size: 5vw;
   }
+}
+
+.address{
+  padding:50px;
 }
