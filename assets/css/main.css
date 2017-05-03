@@ -132,12 +132,12 @@ a:after {
 /* hello */
 #hello {
 	width: 100%;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 200px;
+	padding-bottom: 200px;
 }
 
 #hello h1 {
-	font-size: 14vw;
+	font-size: 7vw;
 	font-weight: 700;
 	letter-spacing: 3px;
 	color: #9A2EFE;
@@ -157,7 +157,7 @@ a:after {
 
 #about h3 {
 	color: white;
-  font-size:3.4vw;
+  font-size:3vw;
 	font-weight: 800;
 	margin-bottom: 35px;
 }
