@@ -162,7 +162,7 @@ a:after {
 	font-weight: 800;
 	margin-bottom: 35px;
 }
-@media screen and (max-width:1299px){
+@media screen and (max-width:1199px){
   #about h3{
     font-size:5vw;
   }
@@ -188,9 +188,15 @@ a:after {
   font-size: 8vw;
 }
 
+#kandi h4{
+  color: white;
+  font-size: 5vw;
+}
+
 #kandi p {
 	color: white;
 	font-weight: 400;
+  font-size: 20px;
 }
 /* warmup */
 #warmup {
@@ -222,17 +228,9 @@ a:after {
   font-size: 8vw;
 }
 
-#access i {
-	font-size: 50px;
-	color: #74cfae;
-}
-
-#access .col-md-3:hover {
-	background-color: #f5f5f5;
-}
-
-#access .col-md-3 {
-	/*padding:30px;*/
+#access p{
+  color:white;
+  font-size: 25px;
 }
 
 /* Footer */
@@ -268,7 +266,7 @@ a:after {
 /* オリジナル */
 
 .non-logo{
-  font-size: 5vw;
+  font-size: 4.5vw;
 }
 
 .line-up{
@@ -301,6 +299,8 @@ a:after {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
+.
 
 @media screen and ( max-width:991px ){
   .upper{
@@ -335,6 +335,9 @@ a:after {
 
   .seigi-logo img{
     width: 45%;
+  }
+  .non-logo {
+    font-size: 6vw
   }
 
 }
@@ -374,4 +377,31 @@ a:after {
 
 .bold{
   font-weight: 800 !important;
+}
+@media screen and (min-width:1799px){
+  .non-logo{
+    font-size: 3vw;
+  }
+  #kandi h4{
+    font-size: 3vw;
+  }
+
+
+  #line-up h3 {
+    font-size: 5vw;
+  }
+  #kandi h3 {
+    font-size: 5vw;
+  }
+  #warmup h3 {
+    font-size: 5vw;
+  }
+  #access h3 {
+    font-size: 5vw;
+  }
+
+}
+
+.credit{
+  font-weight: 600;
 }
