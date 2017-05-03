@@ -132,8 +132,8 @@ a:after {
 /* hello */
 #hello {
 	width: 100%;
-	padding-top: 200px;
-	padding-bottom: 200px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 #hello h1 {
