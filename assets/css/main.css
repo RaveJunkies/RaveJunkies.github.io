@@ -405,3 +405,23 @@ a:after {
 .credit{
   font-weight: 600;
 }
+
+.row-inlineblock {
+  @extend .row;
+  font-size: 0;
+  @for $i from 1 through $grid-columns {
+    .col-xs-#{$i}, .col-sm-#{$i}, .col-md-#{$i}, .col-lg-#{$i} {
+      float: none;
+      font-size: $font-size-base;
+      vertical-align: middle;
+    }
+    .col-xs-#{$i} {
+      display: inline-block;
+    }
+    @media (min-width: $screen-sm-min) {
+      .col-sm-#{$i}, .col-md-#{$i}, .col-lg-#{$i} {
+        display: inline-block;
+      }
+    }
+  }
+}
