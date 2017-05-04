@@ -246,7 +246,7 @@ a:after {
 
 #f p {
 	color: white;
-	text-align: right;
+	text-align: center;
 	font-weight: 400;
 }
 
@@ -389,7 +389,7 @@ a:after {
   }
   .cameraman{
 	text-align: center;
-	font-size: 3vw;	  
+	font-size: 3vw;
   }
   #kandi h4{
     font-size: 3vw;
