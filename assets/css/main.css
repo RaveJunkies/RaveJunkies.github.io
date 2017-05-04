@@ -345,6 +345,7 @@ a:after {
 	.cameraman{
 		text-align: center;
 		font-size: 6vw;
+  }
 }
 @media screen and (min-width:1200px){
   .row-eq-height {
