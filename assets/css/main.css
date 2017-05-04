@@ -133,8 +133,8 @@ a:after {
 #hello {
 	width: 100%;
 	height: 90%;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 0px;
+	padding-bottom: 0px;
 }
 
 #hello h1 {
@@ -328,7 +328,7 @@ a:after {
   }
 
   .seigi-logo img{
-    width: 45%;
+    width: 45%;」
   }
   .non-logo {
     font-size: 6vw
