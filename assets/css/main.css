@@ -176,8 +176,8 @@ a:after {
 #about p {
 	color: white;
 	font-weight: 400;
-	font-size: 18px;
-    text-align: left
+	font-size: 16px;
+    	text-align: left
 }
 
 /* kandi */
@@ -190,18 +190,18 @@ a:after {
 
 #kandi h3 {
 	color: white;
-  font-size: 8vw;
+  	font-size: 8vw;
 }
 
 #kandi h4{
-  color: white;
-  font-size: 5vw;
+  	color: white;
+  	font-size: 5vw;
 }
 
 #kandi p {
 	color: white;
 	font-weight: 400;
-  font-size: 20px;
+  	font-size: 20px;
 }
 /* warmup */
 #warmup {
@@ -213,7 +213,7 @@ a:after {
 
 #warmup h3 {
 	color: white;
-  font-size: 8vw;
+  	font-size: 8vw;
 }
 
 #warmup p {
