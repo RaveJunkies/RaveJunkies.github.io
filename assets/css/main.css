@@ -273,6 +273,9 @@ a:after {
 .non-logo{
   font-size: 4.5vw;
 }
+.part{
+  font-size:4vw;
+}
 
 .cameraman{
 		text-align: center;
@@ -342,6 +345,9 @@ a:after {
   .non-logo {
     font-size: 6vw
   }
+  .part{
+    font-size:5vw;
+  }
 	.cameraman{
 		text-align: center;
 		font-size: 6vw;
@@ -391,6 +397,9 @@ a:after {
 @media screen and (min-width:1799px){
   .non-logo{
     font-size: 3vw;
+  }
+  .part{
+    font-size:2.6vw;
   }
   .cameraman{
 	text-align: center;
