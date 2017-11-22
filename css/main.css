@@ -1,20 +1,61 @@
-body{
-	background-color: #009ad8;
-	color: #FFF;
+@font-face {
+   font-family: aldotheapache;
+   src: url('../fonts/AldotheApache.ttf') format("truetype");
 }
+
+body{
+  background-color: #2e85c7;
+
+  background: repeating-linear-gradient(
+  			45deg,
+  			#52a2da,
+  			#52a2da 40px,
+  			#2e85c7 40px,
+  			#2e85c7 90px
+  		);
+
+	color: #FFF;
+/*
+  background: url(../img/RJ02_Flyer_background_2.png) no-repeat  center scroll;
+	-moz-background-size: cover;
+	background-size: cover;
+  -o-background-size: cover;
+	width: 100vw;
+	height: auto;
+	min-height: 100vh;
+	background-attachment: fixed;
+*/
+  text-shadow: 0 0 10px #000;
+}
+
 h1{
 	font-size: 5vw;
+  text-shadow: 0 0 24px #000;
+
+	/*font-family: aldotheapache;*/
 }
-@media screen and (max-width:420px){
+
+@media screen and (max-width:992px){
+  h1{
+    font-size: 10vw;
+  }
+}
+
+
+@media screen and (max-width:544px){
   h1{
     font-size: 12vw;
   }
 }
 
+h2{
+/*	font-family: aldotheapache;*/
+}
+
 #eyecatch {
 	display: table;
 	position: relative;
-	background: url(../img/ec1.jpg) no-repeat center center scroll;
+	background: url(../img/ec1.jpg) no-repeat  center center scroll;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -81,14 +122,6 @@ h1{
 	padding-bottom: 20px;
 	text-align: center;
 }
-#lineup h1{
-	font-size:5vw;
-}
-@media screen and (max-width:420px){
-  #lineup h1{
-    font-size: 12vw;
-  }
-}
 
 
 #merchandise{
@@ -125,6 +158,12 @@ h1{
   #kandi h3{
     font-size: 12px;
   }
+}
+
+#warmup{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
 }
 
 #access p{
