@@ -12,6 +12,24 @@
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/main.css" rel="stylesheet">
 
+	<!-- colorbox -->
+	<link href="css/colorbox.css" type="text/css" rel="stylesheet" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="js/jquery.colorbox.js"></script>
+
+	<script>
+		if (!navigator.userAgent.match(/(iPhone|iPad|iPod|Android)/)) {
+			$(document).ready(function() {
+				$(".youtube").colorbox({
+					open: true,
+					iframe: true,
+					innerWidth: "90%",
+					innerHeight: "87%",
+				});
+			});
+		}
+	</script>
+
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-98526609-2"></script>
 	<script>
@@ -24,6 +42,8 @@
 
 		gtag('config', 'UA-98526609-2');
 	</script>
+
+
 
 
 
@@ -59,8 +79,11 @@
 </head>
 
 <body>
+	<a href="https://www.youtube.com/embed/58ugGZGBtKA" class="youtube"></a>
+
 	<div id="eyecatch">
 		<div class="box">
+
 			<div class="container">
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2 col-xs-12">
@@ -267,6 +290,7 @@ kandiを交換するときにお互いの手でこの言葉を表すことも。
 			</div>
 		</div>
 		<h3>"Warm-Up Mix vol2" Comming Soon...</h3>
+
 	</div>
 
 	<div id="access">
